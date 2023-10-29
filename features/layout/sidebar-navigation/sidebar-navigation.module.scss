@@ -131,8 +131,9 @@
   composes: list;
   flex: 1;
 }
+
 .flip {
-  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
   transform: scaleX(-1);
 }
 
